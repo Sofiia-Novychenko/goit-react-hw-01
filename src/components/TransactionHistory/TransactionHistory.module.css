@@ -1,0 +1,39 @@
+/* * border-collapse: collapse; 
+* об'єднує межі сусідніх комірок, щоб вони не дублювалися. */
+.transactionTable {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transactionThead {
+  background-color: #2e2f42;
+  color: white;
+}
+
+.transactionTheadLine th {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.transactionTbody tr {
+  border: 1px solid #ddd;
+  color: #2e2f42;
+}
+
+.transactionTbody tr:nth-child(odd) {
+  background-color: #f6f6fe;
+}
+
+.transactionTbody tr:nth-child(even) {
+  background-color: #e3e3ee;
+}
+
+.transactionTbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}

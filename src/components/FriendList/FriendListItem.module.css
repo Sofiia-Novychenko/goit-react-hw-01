@@ -1,0 +1,19 @@
+.friendListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.nameText {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.active {
+  color: #59a10d;
+}
+.offline {
+  color: #ef4040;
+}

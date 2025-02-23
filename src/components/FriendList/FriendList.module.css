@@ -1,0 +1,13 @@
+.list {
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.item {
+  min-width: 115px;
+  border: 2px solid #e3e3ee;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
